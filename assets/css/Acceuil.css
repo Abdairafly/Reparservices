@@ -1,0 +1,32 @@
+/* partie Accueuil */
+
+/* Reset les marges et les rembourrages */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Appliquer le style à l'image */
+  #welcome img {
+    object-fit: cover; /* Remplir l'espace tout en conservant les proportions */
+  }
+  
+  /* Positionner le texte de manière centrée */
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  /* Appliquer des styles au texte */
+  .text-uppercase {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
